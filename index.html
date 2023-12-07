@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <script
+      src="https://kit.fontawesome.com/5bc887da36.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="todo-header">
+          <h2>ToDo App</h2>
+          <img src="/img/Education_31-60_663.jpg" alt="notes" />
+        </div>
+        <div class="todo-body">
+          <form id="todo-form">
+            <input
+              type="text"
+              name="todoInput"
+              id="js-input"
+              placeholder="Add your task for today..."
+            />
+            <button type="submit" class="add-btn" id="js-add-btn">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </form>
+          <div id="js-list-items" class="list-items"></>
+          </div>
+          <div class="message">Number of completed tasks: 0.</div>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

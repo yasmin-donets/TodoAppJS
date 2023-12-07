@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #e5dbdb;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #fff;
+  padding: 25px;
+  width: 500px;
+  border-radius: 10px;
+}
+.todo-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  justify-content: center;
+}
+.todo-header img {
+  width: 30px;
+  margin-left: 5px;
+}
+.todo-body form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.fa-plus-circle {
+  color: rgb(238, 108, 130);
+  cursor: pointer;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.todo-body input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 15px;
+  font-size: 20px;
+}
+.list-items .todo {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #edeef0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.list-items .todo p{
+  margin-left: 5px;
+  flex: 1;
+  word-break: break-all;
+}
+.checked {
+  text-decoration: line-through;
+  color: grey;
+}
+.fa-edit {
+  margin-right: 15px;
+	color: rgb(238, 108, 130);
+}
+.fa-trash {
+	color: rgb(4, 76, 131);
+}
+.message{
+  margin-top: 20px;
+  color: rgb(136, 133, 134);
+}
+.message span{
+  color:rgb(238, 108, 130);
+}
